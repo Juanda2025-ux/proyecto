@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nexuma | Agencia Creativa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(#2fd2d8, #1a1a2e);
+      color: #f0f0f0;
+    }
+    header {
+      background: #1a1a2e;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav h1 {
+      color: #00f7ff;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #00f7ff;
+    }
+
+    .hero {
+      background: url(recursos/hero.jpg) no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 0 2rem;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #00f7ff;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 800px;
+    }
+
+    main {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    .img-text {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+    }
+    .img-text img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,247,255,0.1);
+    }
+    .img-text div {
+      flex: 1;
+    }
+
+    h2 {
+      color: #00f7ff;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: #ccc;
+      line-height: 1.6;
+    }
+    footer {
+      background: #1a1a2e;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    footer a {
+      color: #f0f0f0;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+
+    footer a:hover {
+      color: #00f7ff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <img src="recursos/logo.png" width="8%">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="colaboradores.html">Colaboradores</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="formulario.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div>
+      <h2>Impulsamos marcas con creatividad</h2>
+      <p>En Nexuma combinamos diseño, estrategia y tecnología para crear experiencias únicas y memorables.</p>
+    </div>
+  </div>
+
+  <main>
+
+    <section>
+      <div class="img-text">
+        <img src="recursos/disenocreativo.jpg" alt="Diseño creativo">
+        <div>
+          <h2>¿Qué hacemos?</h2>
+          <p>Diseñamos soluciones visuales efectivas, desde identidad corporativa hasta desarrollo web, branding digital, redes sociales, packaging y mucho más. Cada proyecto lo tratamos como una obra de arte estratégica.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="img-text" style="flex-direction: row-reverse;">
+        <img src="recursos/serviciosdigitales.jpg" alt="Servicios digitales">
+        <div>
+          <h2>Nuestros Servicios</h2>
+          <p>• Branding y diseño de identidad<br>
+             • Desarrollo web responsivo<br>
+             • Gestión de redes sociales<br>
+             • Diseño editorial y publicitario<br>
+             • Producción audiovisual<br>
+             • Consultoría creativa</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="img-text">
+        <img src="recursos/beneficios.jpg" alt="Beneficios">
+        <div>
+          <h2>¿Por qué elegir Nexuma?</h2>
+          <p>Nos diferenciamos por nuestro enfoque personalizado, nuestra pasión por la estética funcional y el compromiso con resultados medibles. Trabajamos contigo, no solo para ti.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nexuma Agencia Creativa - Todos los derechos reservados. <br>
+    Integrantes: Alama Chinchay, José Manuel - Alarcón Santillán, Andrea Selenne - Matta Bernaola, Óscar Francisco - Silvera Nuñez, Juan David.</p>
+    <div>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
